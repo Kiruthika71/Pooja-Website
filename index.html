@@ -74,13 +74,25 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./Images/banner1.jpg" class="d-block w-100" alt="...">
+                <picture>
+                    <source media="(min-width: 992px)" srcset="./Images/banner1.jpg">
+                    <source media="(max-width: 768px)" srcset="./Images/office-banner.jpg">
+                    <img src="./Images/banner1.jpg" class="d-block w-100" alt="...">
+                </picture>
             </div>
             <div class="carousel-item">
-                <img src="./Images/banner4.jpg" class="d-block w-100" alt="...">
+                <picture>
+                    <source media="(min-width: 992px)" srcset="./Images/banner2.jpg">
+                    <source media="(max-width: 768px)" srcset="./Images/office-banner.jpg">
+                    <img src="./Images/banner2.jpg" class="d-block w-100" alt="...">
+                </picture>
             </div>
             <div class="carousel-item">
-                <img src="./Images/banner3.jpg" class="d-block w-100" alt="...">
+                <picture>
+                    <source media="(min-width: 992px)" srcset="./Images/banner3.jpg">
+                    <source media="(max-width: 768px)" srcset="./Images/office-banner.jpg">
+                    <img src="./Images/banner3.jpg" class="d-block w-100" alt="...">
+                </picture>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -132,7 +144,11 @@
 
     <div class="offers">
         <div class="offer-container">
-            <img src="./Images/offer1.jpg" alt="Offer">
+            <picture>
+                <source media="(min-width: 992px)" srcset="./Images/offer1.jpg">
+                <source media="(max-width: 768px)" srcset="./Images/discount1.jpg">
+                <img src="./Images/offer1.jpg" alt="Description of the image">
+              </picture>
         </div>
     </div>
 
@@ -196,7 +212,7 @@
     <div class="categories">
         <div class="category-container">
             <h1>Shop by Category</h1>
-            <div class="custom-slider">
+            <div class="custom-slider">            
                 <div class="custom-box">
                     <img src="./Images/cat9.jpg" alt="">
                 </div> 
@@ -221,7 +237,15 @@
                 <div class="custom-box">
                     <img src="./Images/cat16.jpg" alt="">
                 </div> 
-              </div>
+            </div>
+            <!-- <div class="slide-icons">
+                <div class="slide-icon-left">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div class="slide-icon-right">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div> -->
         </div>
     </div>
 
@@ -243,7 +267,7 @@
     </div>
 
 <!-- Category -->
-    <div class="categories">
+    <div class="categories space">
         <div class="category-container">
             <h1>Shop by Category</h1>
             <div class="custom-slider">
