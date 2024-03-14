@@ -544,10 +544,18 @@ li {
         margin: 16px 0;
     }
 
+    .navigation-container {
+        top: 98px;
+    }
+
     .navigation-container.active {
         position: fixed;
         left: 0;
         top: 98px;
+    }
+
+    .navigation.sticky .navigation-container.active {
+        top: 58px;
     }
 
     body.no-scroll {
